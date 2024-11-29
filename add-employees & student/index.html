@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <div>
+        <h2>Studetns</h2>
+        <div>
+            <form>
+                <input type="text" id="name" placeholder="Enter Student Name">
+                <button type="button" onclick="add()">Add</button>
+            </form>
+        </div>
+        <div id="students"></div>
+    </div>
+    <hr>
+    <div>
+        <h2>Studetns Degrees</h2>
+        <div>
+            <form>
+                <input type="text" id="n" placeholder="Enter Student Name">
+                <input type="text" id="d" placeholder="Enter Student Degree">
+                <button type="button" onclick="addDegree()">Add</button>
+            </form>
+        </div>
+        <div >
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Degree</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    
+    <hr>
+
+
+
+
+    <script src="dist/js/main.js"></script>
+</body>
+</html>

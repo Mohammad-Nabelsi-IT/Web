@@ -1,0 +1,121 @@
+body {
+    background-color:white;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: rgb(60, 148, 64);*/
+    background: linear-gradient(to right, rgb(60, 148, 64), rgb(6, 61, 9));
+    text-align: center;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 40pt;
+}
+
+header p {
+    font-size: 20pt;
+
+}
+
+header button {
+    color: rgb(60, 148, 64);
+    padding: 20px;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+header button:hover {
+    color: orange;
+    background-color: black;
+    cursor: pointer;
+}
+
+#products {
+    text-align: center;
+    padding: 20px;
+}
+
+#products h2 {
+    font-size: 30pt;
+}
+
+#products h1 {
+    font-size: 30pt;
+}
+
+#products #product-list {
+    width: 100%;
+    display: flex;
+}
+
+#product-list div {
+    width: 33%;
+    padding: 10px;
+}
+
+#product-list div img {
+    width: 400px;
+    height: 250px;
+}
+
+#product-list div p {
+    font-size: 14pt;
+}
+
+#customer {
+background-color: rgba(155, 156, 160, 0.377);
+text-align: center;
+padding: 20px;
+}
+#customer ul li{
+    list-style: none;
+    margin: 5px;
+    font-size: large;
+}
+#update{
+    text-align: center;
+    padding: 50px 10px;
+}
+#update h3{
+    text-align: center;
+    font-size: 20pt;
+
+}
+#update p{
+    font-weight: bold;
+    text-align: center;
+
+}
+#update input{
+     padding: 10px;
+}
+#update input[type=submit]{
+    background-color: rgb(98, 158, 8);
+    color: white;
+    font-size:small;
+    border-color:rgb(122, 143, 143);
+    
+}
+footer{
+    background-color: rgb(43, 44, 48);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+footer a{
+    color:orange;
+    margin: 0 10px;
+}
+footer a:hover{
+
+    color: aqua;
+}

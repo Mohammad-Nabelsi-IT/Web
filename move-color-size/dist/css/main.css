@@ -1,0 +1,13 @@
+.rect{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius: 50%;
+}

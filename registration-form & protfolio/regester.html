@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="dist/css/regester.css">
+    </head>
+    <body>
+        <section id="regester">
+            <h1>Registration Form</h1>
+            <form>
+                <div>
+                    <label>Full Name:</label>
+                    <input type="text" placeholder="Enter your Full Name" />
+                </div>
+                <div>
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your Email" />
+                </div>
+                <div>
+                    <label>Password:</label>
+                    <input type="password" placeholder="Enter your Password" />
+                </div>
+                <div id="div-gender">
+                    <label>Gender:</label>
+                    <div id="div-radio">
+                        <input type="radio" name="gender" id="m" /><label
+                            for="m">Male</label>
+                        <input type="radio" name="gender" id="f" /><label
+                            for="f">female</label>
+                    </div>
+                </div>
+                <div id="div-hobbies">
+                    <label>Hobbies:</label>
+                    <div id="hobbies-checkbox">
+                        <input type="checkbox" id="reading"><label
+                            for="reading">Reading</label>
+                        <input type="checkbox" id="traveling"><label
+                            for="traveling">Traveling</label>
+                        <input type="checkbox" id="gaming"><label
+                            for="gaming">Gaming</label>
+                    </div>
+                </div>
+                <div>
+                    <label>Country:</label>
+                    <select>
+                        <option>USA</option>
+                        <option>Canada</option>
+                        <option>Germany</option>
+                        <option>Egypt</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Date of Birth</label>
+                    <textarea rows="5"
+                        placeholder="Tell us somthing about yourself ..."></textarea>
+                </div>
+                <div>
+                    <label for="terms"> <input type="checkbox" id="terms">
+                       I agree to the <a href="#">terms and condition</a></label>
+                </div>
+                <div>
+                    <button type="submit">submit</button>
+                </div>
+            </form>
+
+        </section>
+
+    </body>
+</html>

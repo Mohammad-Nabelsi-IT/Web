@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(116, 77, 3, 0.584);
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    padding: 10px;
+}
+input {
+    width: 100px;
+    margin: 2px;
+}
+input , button{
+    padding: 10px;
+    font-size: 12pt;
+}
+#students{
+    font-size: 12pt;
+}
+
+table{
+    width: 90%;
+   
+}
+table,tr,td,th{
+    border-collapse: collapse;
+    border: 1px solid rebeccapurple;
+    padding: 2px;
+}

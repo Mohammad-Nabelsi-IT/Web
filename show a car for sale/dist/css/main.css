@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(181, 208, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+header img{
+    width: 300px;
+}
+#text{
+    margin: 10px;
+    padding: 20px;
+}

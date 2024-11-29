@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .swiper {
+          width: 100%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+    
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 300px;
+          height: 300px;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+        }
+        header{
+        background-image: url(../../images/1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:white;
+        padding: 100px;
+        text-align: center;
+        font-size:30pt;
+        height: 550px;
+    }
+      </style>
+  </head>
+
+  <!-- ======================================= -->
+  <body>
+    <section id="bar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><svg
+              xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-align-top" viewBox="0 0 16 16">
+              <rect width="4" height="12" rx="1"
+                transform="matrix(1 0 0 -1 6 15)" />
+              <path
+                d="M1.5 2a.5.5 0 0 1 0-1zm13-1a.5.5 0 0 1 0 1zm-13 0h13v1h-13z" />
+            </svg> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search"
+                placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success"
+                type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <header>
+      <div id="overlay" class=" text-center mb-3 p-5 text-light">
+        <h1>Tahlasa</h1>
+        <p>Your destination towards tourism</p>
+        <button class="btn btn-primary" type="submit">Reservation Now</button>
+      </div>
+    </header>
+
+    <div class="container">
+
+      <!-- ============================================ -->
+      <div class="row my-4">
+        <div class="col-md-4">
+          <div class="border shadow-lg rounded p-1 border-secondary p-3 h-100">
+            <img src="images/2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title my-3">Basic</h5>
+              <p class="card-text">Apartment with direct sea view, equipped for
+                four people, in addition to breakfast, with a three-day
+                stay.</p>
+              <h3>199 $</h3>
+            </div>
+            <a href="#" class="btn btn-primary">Sign Up</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="border shadow-lg rounded p-1 border-secondary p-3 h-100">
+            <img src="images/3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title my-3">Super</h5>
+              <p class="card-text">Apartment with direct sea view, equipped for
+                four people, with three meals a day during the three-day
+                stay.</p>
+              <h3>299 $</h3>
+            </div>
+            <a href="#" class="btn btn-primary">Sign Up</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="border shadow-lg rounded p-1 border-secondary p-3 h-100">
+            <img src="images/4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title my-3">Premium</h5>
+              <p class="card-text">Apartment with direct sea view, equipped for
+                four people, with three meals a day during the three-day stay,
+                additional features: Internet, all international channels, free
+                car garage.</p>
+              <h3>399 $</h3>
+            </div>
+            <a href="#" class="btn btn-primary">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <!-- ============================================ -->
+      <section class="Portfolio text-center">
+        <h2>Portfolio</h2>
+        <div class="p-4">
+          <button>All</button>
+          <button>Web</button>
+          <button>Mobile</button>
+
+        </div>
+      </section>
+      <!-- ============================================ -->
+      <section id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="9" aria-label="Slide 10"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img src="images/2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img src="images/3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img src="images/Screenshot 2024-11-25 110513.png"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img src="images/Screenshot 2024-11-25 110536.png"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img src="images/Screenshot 2024-11-25 110549.png"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img src="images/Screenshot 2024-11-25 110604.png"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img src="images/Screenshot 2024-11-25 110636.png"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Screenshot 2024-11-25 110643.png"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Screenshot 2024-11-25 110649.png"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- ================================================= -->
+
+      <section class="team">
+
+        <div class="row my-4">
+          <h2 class="text-center p-5 my-2">Tahlasa Team</h2>
+          <div class="col-md-4">
+            <div data-aos="fade-up"
+              class="border shadow-lg rounded p-1 border-secondary p-3 h-100 text-center">
+              <img class="img-fluid rounded-circle"
+                style="width: 150px; height: 150px;" src="images/e2.jpg "
+                class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title my-3">John Doe</h5>
+                <p class="card-text">Director of Marketing and Public
+                  Relations.</p>
+              </div>
+
+              <div class="card-body">
+                <a href="#" class="card-link">Instagram</a>
+                <a href="#" class="card-link">Facebook</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div data-aos="flip-right"
+              class="border shadow-lg rounded p-1 border-secondary p-3 h-100 text-center">
+              <img class="img-fluid rounded-circle"
+                style="width: 150px; height: 150px;" src="images/e1.jpg"
+                class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title my-3">Sara John</h5>
+                <p class="card-text">Customer Services Director.</p>
+              </div>
+
+              <div class="card-body">
+                <a href="#" class="card-link">Instagram</a>
+                <a href="#" class="card-link">Facebook</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div data-aos="zoom-out-left"
+              class="border shadow-lg rounded p-1 border-secondary p-3 h-100 text-center">
+              <img class="img-fluid rounded-circle"
+                style="width: 150px; height: 150px;" src="images/3e.jpg"
+                class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title my-3">Wiliam Scott</h5>
+                <p class="card-text">Chairman of the Board of Directors.</p>
+              </div>
+
+              <div class="card-body">
+                <a href="#" class="card-link">Instagram</a>
+                <a href="#" class="card-link">Facebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://a0.muscache.com/im/pictures/f1966ef1-2c0a-4fc8-b433-09f8fac6404e.jpg?im_w=1200" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+
+    <!-- -------------------------------- -->
+
+    <!-- -------------------------------- -->
+
+    <footer class="bg-secondary text-white p-4 text-center">
+      For more details with <a href="#" class="alert-link">Tahlasa</a>. Give it
+      a click if you like.
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+    AOS.init();
+  </script>
+  </body>
+</html>

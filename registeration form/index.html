@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="dist/css/main.css">
+    </head>
+    <body>
+        <div class="cotainer">
+            <h2>Registeration Form</h2>
+            <form>
+                <div class="form-row">
+                    <label>Name</label>
+                    <input id="name" type="text" onblur="validatName()"
+                        placeholder="Enter Your Name">
+                    <span id="name-error" class="error"></span>
+                </div>
+
+                <div class="from-row">
+                    <label>Mobile</label>
+                    <input id="mobile" type="text"
+                        onblur="validateInput('mobile'
+                     ,'mobile_error','Mobile is Required')"
+                        placeholder="Enter your Mobile" />
+                    <span id="mobile_error" class="error"></span>
+                </div>
+
+                <div class="form-row">
+                    <label>Email</label>
+                    <input id="email" type="email" onblur="validatEmail()"
+                        placeholder="Enter Your Email">
+                    <span id="email-error" class="error"></span>
+                </div>
+                <div class="from-row">
+                    <label>Date of Birth</label>
+                    <input id="bd" type="date" onblur="validateInput('bd' ,
+                    'bd_error','Date of Birth is Required')"
+                        placeholder="Enter your Email" />
+                    <span id="bd_error" class="error"></span>
+                </div>
+
+                <div class="form-row" style="text-align: right;">
+                    <button type="button">Register</button>
+                </div>
+            </form>
+            <hr>
+            <script>
+
+                let x =null;
+                console.log(x);
+    
+                var rslt = x ??=10;
+                console.log(x);
+                console.log(rslt);
+    
+                var n1 =10;
+                var n2 = 5;
+    
+                n1 += n2; 
+                console.log(n1);
+    
+                let falg = true;
+                let n5 =15;
+                let s ="liloa";
+                let person = { 
+                        firstName:"Mohammad" , 
+                        lastName:"Nabelsi" ,
+                        dob : "1990-11-10"
+                    };
+                console.log(person.firstName + " " + 
+                person.lastName + " " + person.dob);
+    
+                let names =["ali" ,"ahmed" ,"sara"]; 
+                console.log(names[0]);
+                console.log(names[1]);
+                console.log(names[2]);
+    
+                person.salary = 5000;
+    
+                console.log(person);
+    
+            
+                let emp =new Object();
+                emp.name ="Mohammad";
+                emp.job ="Manager";
+                emp.salary =70000;
+                console.log(emp);
+            </script>
+
+        </div>
+
+        <script src="dist/js/main.js"></script>
+    </body>
+</html>

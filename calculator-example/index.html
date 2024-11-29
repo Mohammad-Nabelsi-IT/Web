@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <button onclick="sayHello()">Say Hello</button>
+        <button onclick="sayHello2()">say Hello aggain</button>
+        <h1 id="heading"></h1>
+        <p id="p1">
+        </p>
+        
+        <script>
+        function sayHello(){
+            alert("Hello every body");
+        }
+        function sayHello2(){
+            document.getElementById("heading").innerHTML="Hello every body";
+            document.getElementById("p1").innerHTML="Im Mohammad and learn Java";
+            
+        }
+    </script>
+    </body>
+</html>
